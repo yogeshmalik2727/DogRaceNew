@@ -1,0 +1,45 @@
+﻿Unit Test of project using Instantiation and linking back to the class.
+
+We have an abstract class namely "DogRun" in GreyHound.cs file,
+having an abstract method declared as "Run(), this Run() function in emplemented in 
+derived class "GreyHound" that let the dogs run from start to end.
+
+
+1. Instantiation:
+> "Guy" class initialises -
+	-Name of bettor
+	-Total cash in hand
+	-Radio buttons
+	-some labels for description
+
+> "Bet" class initialises-
+	-Bet Amount
+	-Dog Number
+
+> "GreyHound" class initialises -
+	-Starting Position
+	-Race Track Length
+	-Location
+	-Picture box
+	
+
+2. linking back:
+	> "Guy" class links-
+		-labels with name of better having cash
+		-winning dog amount
+		-bet amount with proper description
+		
+	> "Bet" class links-
+		-Payout for bettor
+		-Dog Number
+
+	> "GreyHound" class links -
+		-Dog run distance, position and race track length
+		
+Finally:
+
+
+1. Joe, Bob, Al has some initial amount i.e. $50
+2. "Bet" button set the bet amount that lies between $5 to $15 (Min. $5 and Max. $15)
+3. Select the dog number on which you want to place the bet.
+4. "Race" button starts the dog race
